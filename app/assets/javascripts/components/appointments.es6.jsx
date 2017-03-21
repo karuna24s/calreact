@@ -37,7 +37,7 @@ class Appointments extends React.Component{
         <AppointmentForm title={this.state.title}
          appt_time={this.state.appt_time}
          onUserInput={(obj) => this.handleUserInput(obj)}
-         onFormSubmit={(obj)=> this.handleFormSubmit(obj)} />
+         onFormSubmit={()=> this.handleFormSubmit()} />
         <AppointmentsList appointments={this.state.appointments} />
       </div>
     )
