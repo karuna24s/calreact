@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "engines": {
-    "node": "8.9.4",
-    "npm": "4.1.1"
+    "node": "13.8.0",
+    "npm": "6.13.7"
   },
   "scripts": {
     "postinstall": "cd client && yarn install",
@@ -12,6 +12,7 @@
     "test": "rspec"
   },
   "dependencies": {
-    "braces": "^3.0.2"
+    "braces": "^3.0.2",
+    "deep-extend": "^0.6.0"
   }
 }
