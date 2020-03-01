@@ -12,6 +12,7 @@
     "test": "rspec"
   },
   "dependencies": {
+    "babel": "^6.23.0",
     "braces": "^3.0.2",
     "deep-extend": "^0.6.0"
   }

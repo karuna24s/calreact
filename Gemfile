@@ -5,8 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
-<<<<<<< HEAD
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 ruby '2.7.0'
 gem 'rails', '~> 6.0.2.1'
@@ -18,14 +16,7 @@ gem "loofah", ">= 2.3.1"
 gem "haml", ">= 5.0.0"
 # Use Puma as the app server
 gem "puma", ">= 3.12.3"
-=======
 gem 'react-rails'
-gem 'haml'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.2'
-# Use Puma as the app server
-gem 'puma', '~> 3.0'
->>>>>>> 5400948c01b3069b8c8005164c94cbaf7d3071be
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -51,11 +42,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
-<<<<<<< HEAD
   gem 'sqlite3', '~> 1.4'
-=======
-  gem 'sqlite3'
->>>>>>> 5400948c01b3069b8c8005164c94cbaf7d3071be
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
@@ -70,19 +57,12 @@ group :development do
 end
 
 group :production do
-<<<<<<< HEAD
   gem 'pg', '~> 1.2', '>= 1.2.2'
-=======
-  gem 'pg'
->>>>>>> 5400948c01b3069b8c8005164c94cbaf7d3071be
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-<<<<<<< HEAD
 
 gem "react_on_rails", "~> 6"
 
 gem 'mini_racer', platforms: :ruby
-=======
->>>>>>> 5400948c01b3069b8c8005164c94cbaf7d3071be
