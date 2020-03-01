@@ -7,11 +7,16 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.2'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+ruby '2.7.0'
+gem 'rails', '~> 6.0.2.1'
+gem "rake", ">= 12.3.3"
+gem "nokogiri", ">= 1.10.8"
+gem "rails-html-sanitizer", ">= 1.0.4"
+gem "rack", ">= 2.0.8"
+gem "loofah", ">= 2.3.1"
+gem "haml", ">= 5.0.0"
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem "puma", ">= 3.12.3"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -36,6 +41,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3', '~> 1.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
@@ -49,7 +56,13 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :production do
+  gem 'pg', '~> 1.2', '>= 1.2.2'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "react_on_rails", "~> 6"
+
+gem 'mini_racer', platforms: :ruby
