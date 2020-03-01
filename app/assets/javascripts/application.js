@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 //= require webpack-bundle
 
+=======
+>>>>>>> 5400948c01b3069b8c8005164c94cbaf7d3071be
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -15,4 +18,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+<<<<<<< HEAD
+=======
+//= require react
+//= require react_ujs
+//= require moment
+//= require react-datetime.min
+//= require components
+>>>>>>> 5400948c01b3069b8c8005164c94cbaf7d3071be
 //= require_tree .
