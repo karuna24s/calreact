@@ -14,6 +14,7 @@ gem "rails-html-sanitizer", ">= 1.0.4"
 gem "rack", ">= 2.0.8"
 gem "loofah", ">= 2.3.1"
 gem "haml", ">= 5.0.0"
+gem "actionview", ">= 6.0.2.2"
 # Use Puma as the app server
 gem "puma", ">= 3.12.3"
 gem 'react-rails'
